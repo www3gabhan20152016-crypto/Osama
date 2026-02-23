@@ -2007,7 +2007,7 @@
             details = `
                 <div style="color: var(--text-dim); font-size: 0.9rem; margin-top: 5px;">
                     <div>المبلغ: <b style="color: var(--primary);">${order.amount} ريال</b></div>
-                    <div>طريقة الدفع: <b>${order.method || 'غير محدد'}</b></div>
+                    <div>طريقة ...الدفع: <b>${order.method || 'غير محدد'}</b></div>
                     <div>رقم الحوالة: <b>${order.note || 'غير محدد'}</b></div>
                 </div>
             `;
